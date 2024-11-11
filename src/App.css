@@ -1,0 +1,119 @@
+.modal-container{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  z-index: 20;
+  position: fixed;
+  inset: 0;
+  /* max-width: 900px;
+  max-height: 600px; */
+  /* opacity: 95%; */
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.modal{
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgb(198, 252, 234);
+  box-shadow: rgba(0, 0, 0, 0.925) 0px 5px 15px;
+  max-width: 700px;
+  max-height: 400px;  
+  position: relative;
+}
+.close-modal{
+  cursor: pointer;
+  top: 5px;
+  right: 5px;
+  position: absolute;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.397) ;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.container{
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 20px 40px;
+  border-radius: 10px;
+  /* border: 1px dashed red; */
+  background-color: rgba(233, 233, 233, 0.575);
+}
+
+.users{
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.users>select{
+  cursor: pointer;
+  width: 200px;
+  padding: 7px;
+  margin-left: 0;
+  border-radius: 4px;
+  background-color: rgba(153, 240, 240, 0.322);
+}
+.option{
+  cursor: pointer;
+
+}
+/* .option:hover{
+  cursor: pointer;
+  color: red;
+} */
+
+.fetch-button{
+  background-color: rgb(92, 177, 7);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+  margin: 30px;
+}
+
+.post{
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(233, 229, 229);
+  margin-bottom: 15px;
+  
+}
+.post:hover{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(123, 180, 194, 0.979) 3px 3px 8px;
+}
+
+.post-title{
+  margin: 0 0 15px 0;
+}
+
+.post-body{
+  color: rgb(61, 60, 59);
+}
+
+.pagination{
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+}
+
+.page-button{
+  padding: 5px 10px;
+  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-button.active{
+  background-color: rgb(252, 167, 127);
+  padding: 2px 4px;
+}

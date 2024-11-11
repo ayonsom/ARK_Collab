@@ -1,2 +1,17 @@
-# ARK_Collab
-To work collaboratively 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+-------------------Problems to be Fixed----------------------
+
+1. Upon selecting an user after first render of all posts, selected user's post is not fetched, on second time selecting, selected user's post is being fetched.
+
+2. Pagination not applied on selected user's post page.
+
+3. On clicking a particular post, comments on that post should be opened on a new tab.
